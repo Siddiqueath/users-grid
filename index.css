@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+    min-height: 100vh;
+    background-image: linear-gradient(to left bottom, #debac4, #dfb1b9, #e0a8ad, #e0a09f, #de9890);
+}
+.recipients{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 550px;
+    min-width: 400px;
+}
+.users {
+    display: flex;
+    gap: 20px;
+    background-color: #DEBAC4;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.1);
+    padding: 12px;
+}
+.userimg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 85%;
+}
+.username{
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #e36153;
+    font-weight: 600;
+}
+.joindate{
+    margin-top: 4px;
+    color: grey;
+}
